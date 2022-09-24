@@ -2,6 +2,76 @@
 <html lang="en">
 <head>
     <style>
+*{ 
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+body{
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 30px;
+    padding: 2%;
+    color: black;
+}
+
+#wrapper{
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px;
+
+}
+
+.top-banner{
+    display: inline;
+}
+
+
+#callouts{
+    float: right;
+    overflow: hidden;
+    margin: 0 0 0 5%;
+    padding: 10px;
+}
+
+.social{
+    list-style: none;
+    margin-top: 4px;
+    padding: 0%;
+
+}
+
+
+
+.social li{
+    display: inline;
+}
+
+
+p{
+    padding: 2%;
+    text-align: justify;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+#logo img{
+    max-width: 300px;
+    float: left;
+    height: 100px;
+    padding: 5px;
+    
+    
+}
+
+
+
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -39,6 +109,49 @@
   background: seagreen;
   color: white;
 }
+.heading{
+    color: blue;
+    font-size: 50px;
+    
+}
+
+.button-holder{
+    float: right;
+}
+
+.btn{
+    width: 100px;
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+    margin: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+.button-holder:hover{
+    transform: scale(0.9);
+}
+
+.contact{
+    padding: 5px;
+    width: 90%;
+    margin: 4px auto;
+    text-align: center;
+}
+
+.line{
+    clear: both;
+    margin: 4% auto;
+    width: 90%;
+    height: 2px;
+    background-color: blue;
+}
+
+span{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bolder;
+}
 
 
 </style>
@@ -53,7 +166,7 @@
 </head>
 <body>
     <div id="wrapper">
-        <header>
+        <header class="top-banner">
 
             <div id="logo">
             <img src="..\html-email-1\logo.png" alt="Porshe logo">
@@ -65,14 +178,35 @@
                     <li><a href="www.linkedin.com" class="fa fa-linkedin" target="_blank"></a></li>
                     <li><a href="www.youtube.com" class="fa fa-youtube" target="_blank"></a></li>
                     <li><a href="www.skype.com" class="fa fa-skype" target="_blank"></a></li>
-                   
-                    
-
-
                 </ul>
-
             </div>
         </header>
+        <div class="banner">
+            <img src="../html-email-1/porsche.jpg" alt="banner image">
+        </div>
+        <h1 class="heading">2022 Offers on all Our Brands!!</h1>
+        <p>
+            Your company advertisement text goes here. Make it's seductive, convincing and real!
+            Your company advertisement text goes here. Make it's seductive, convincing and real!
+            Your company advertisement text goes here. Make it's seductive, convincing and real!
+            Your company advertisement text goes here. Make it's seductive, convincing and real!
+            Your company advertisement text goes here. Make it's seductive, convincing and real!
+            Your company advertisement text goes here. Make it's seductive, convincing and real!
+        </p>
+        
+        
+        <div class="button-holder">
+            <a class = "btn"  href="#"> Learn more.. </a>
+        </div>
+        <br>
+
+        <div class="line"></div>
+        <p class="contact"><span>PORSCHE- AFRICA OFFICE CONTACTS:</span><br>
+        CALL: 254-780010010 or 0727869396 <br>
+        VISIT: www.porsche.com/kenya<br>
+        KOINANGE STREET-OFF UNIVERSITY WAY<br>
+        EMAIL: porshe-africa@porsche.com
+    </p>
 
 
     </div>
